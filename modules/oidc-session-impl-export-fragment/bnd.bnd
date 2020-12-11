@@ -1,0 +1,25 @@
+Bundle-Name: oidc-session-impl-export-fragment
+Bundle-SymbolicName: oidc.session.impl.export.fragment
+Bundle-Version: 1.0.0
+
+Fragment-Host: com.liferay.portal.security.sso.openid.connect.impl
+
+Export-Package:\
+	com.liferay.portal.security.sso.openid.connect.internal,\
+    com.nimbusds.jose;version=9.1.5,\
+    com.nimbusds.jose.jwk.source;version=9.1.5,\
+    com.nimbusds.jose.proc;version=9.1.5,\
+    com.nimbusds.jwt;version=9.1.5,\
+    com.nimbusds.oauth2.sdk;version=6.16.2,\
+    com.nimbusds.oauth2.sdk.auth;version=6.16.2,\
+    com.nimbusds.oauth2.sdk.http;version=6.16.2,\
+    com.nimbusds.oauth2.sdk.id;version=6.16.2,\
+    com.nimbusds.oauth2.sdk.token;version=6.16.2,\
+    com.nimbusds.openid.connect.sdk;version=6.16.2,\
+    com.nimbusds.openid.connect.sdk.claims;version=6.16.2,\
+    com.nimbusds.openid.connect.sdk.op;version=6.16.2,\
+    com.nimbusds.openid.connect.sdk.rp;version=6.16.2,\
+    com.nimbusds.openid.connect.sdk.token;version=6.16.2,\
+    com.nimbusds.openid.connect.sdk.validators;version=6.16.2,\
+    net.minidev.json;version=2.3
+    

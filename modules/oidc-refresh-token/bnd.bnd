@@ -1,0 +1,3 @@
+Bundle-Name: oidc-refresh-token
+Bundle-SymbolicName: oidc.refresh.token
+Bundle-Version: 1.0.0
